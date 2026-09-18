@@ -1,4 +1,4 @@
-const API_URL   = "PASTE_YOUR_INVOKE_URL_HERE";
+const API_URL   = "https://l9x975e8o7.execute-api.eu-north-1.amazonaws.com/prod";
 const POOL_DATA = {
   UserPoolId: "PASTE_USER_POOL_ID",
   ClientId:   "PASTE_CLIENT_ID",
