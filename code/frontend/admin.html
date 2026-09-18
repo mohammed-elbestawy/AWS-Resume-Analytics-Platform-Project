@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruiter Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card" id="login-card">
+    <h1>Recruiter Login</h1>
+    <form id="login-form" novalidate>
+      <label for="username">Email</label>
+      <input type="email" id="username" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" required>
+      <button type="submit" id="login-btn">Sign In</button>
+    </form>
+    <div id="login-status" class="status"></div>
+  </main>
 
+  <main class="card wide" id="dashboard-card" style="display:none">
+    <h1>Candidate Evaluations</h1>
+    <p class="subtitle"><span id="count">0</span> candidates evaluated</p>
+    <button id="logout-btn" class="secondary-btn">Log Out</button>
+    <div id="candidates-table"></div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/amazon-cognito-identity-js@6/dist/amazon-cognito-identity.min.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
