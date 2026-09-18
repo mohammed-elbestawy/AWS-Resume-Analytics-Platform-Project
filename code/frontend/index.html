@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Your Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Apply Now</h1>
+    <form id="resume-form" novalidate>
+      <label for="candidate_name">Full Name</label>
+      <input type="text" id="candidate_name" required>
 
+      <label for="candidate_email">Email</label>
+      <input type="email" id="candidate_email" required>
+
+      <label for="job_id">Job ID</label>
+      <input type="text" id="job_id" placeholder="e.g. cloud-security-01" required>
+
+      <label for="resume_text">Paste Your Resume Text</label>
+      <textarea id="resume_text" rows="10" required></textarea>
+
+      <button type="submit" id="submit-btn">Submit</button>
+    </form>
+    <div id="status" class="status"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
