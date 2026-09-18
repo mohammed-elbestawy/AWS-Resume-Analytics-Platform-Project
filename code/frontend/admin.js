@@ -1,7 +1,7 @@
 const API_URL   = "https://l9x975e8o7.execute-api.eu-north-1.amazonaws.com/prod";
 const POOL_DATA = {
-  UserPoolId: "PASTE_USER_POOL_ID",
-  ClientId:   "PASTE_CLIENT_ID",
+  UserPoolId: "808c195c-4081-70fa-3dda-3aad2a875b15",
+  ClientId:   "408m2r87snjl1b298ub18ebhot",
 };
 
 const userPool = new AmazonCognitoIdentity.CognitoUserPool(POOL_DATA);
