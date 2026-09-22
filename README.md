@@ -13,7 +13,15 @@ A serverless platform where candidates submit resumes and recruiters get AI-scor
 
 ---
 
-**Contents:** 🎯 [The Problem](#-the-problem) · 🏗️ [Architecture](#️-architecture) · ✅ [Live Test Result](#-live-test-result) · 🧠 [Skills Demonstrated](#-skills-demonstrated) · 💰 [Cost Decisions](#-cost-decisions) · 🚀 [Possible Improvements](#-possible-improvements) · 📚 [Documentation](#-documentation) · 📁 [Repository Structure](#-repository-structure)
+### Contents
+- 🎯 [The Problem](#-the-problem)
+- 🏗️ [Architecture](#️-architecture)
+- ✅ [Live Test Result](#-live-test-result)
+- 🧠 [Skills Demonstrated](#-skills-demonstrated)
+- 💰 [Cost Decisions](#-cost-decisions)
+- 🚀 [Possible Improvements](#-possible-improvements)
+- 📚 [Documentation](#-documentation)
+- 📁 [Repository Structure](#-repository-structure)
 
 ---
 
