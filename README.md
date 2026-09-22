@@ -14,17 +14,18 @@ A serverless platform where candidates submit resumes and recruiters get AI-scor
 ---
 
 ### Contents
-- 🎯 [The Problem](#-the-problem)
-- 🏗️ [Architecture](#️-architecture)
-- ✅ [Live Test Result](#-live-test-result)
-- 🧠 [Skills Demonstrated](#-skills-demonstrated)
-- 💰 [Cost Decisions](#-cost-decisions)
-- 🚀 [Possible Improvements](#-possible-improvements)
-- 📚 [Documentation](#-documentation)
-- 📁 [Repository Structure](#-repository-structure)
+- 🎯 [The Problem](#problem)
+- 🏗️ [Architecture](#architecture)
+- ✅ [Live Test Result](#test)
+- 🧠 [Skills Demonstrated](#skills)
+- 💰 [Cost Decisions](#cost)
+- 🚀 [Possible Improvements](#improvements)
+- 📚 [Documentation](#docs)
+- 📁 [Repository Structure](#structure)
 
 ---
 
+<a id="problem"></a>
 ## 🎯 The Problem
 
 Screening resumes manually doesn't scale — a recruiter reading fifty submissions against one job description spends most of that time on candidates who were never a fit. This project automates the first pass: candidates submit through a public form, and every resume is scored against the actual job description before a recruiter ever opens it.
@@ -38,6 +39,7 @@ Screening resumes manually doesn't scale — a recruiter reading fifty submissio
 
 ---
 
+<a id="architecture"></a>
 ## 🏗️ Architecture
 
 <div align="center">
@@ -66,6 +68,7 @@ Region: `eu-north-1` (Comprehend calls target `eu-west-1`, since Comprehend isn'
 
 ---
 
+<a id="test"></a>
 ## ✅ Live Test Result
 
 Submitted a test resume against a stored job description. The candidate received an instant confirmation while scoring happened in the background; the recruiter dashboard then showed the candidate ranked by match score, with the specific missing skills listed alongside it.
@@ -78,6 +81,7 @@ Submitted a test resume against a stored job description. The candidate received
 
 ---
 
+<a id="skills"></a>
 ## 🧠 Skills Demonstrated
 
 - Designing a two-sided platform (public submission + authenticated review) on one shared serverless backend
@@ -89,6 +93,7 @@ Submitted a test resume against a stored job description. The candidate received
 
 ---
 
+<a id="cost"></a>
 ## 💰 Cost Decisions
 
 No component here bills by the hour, so nothing needs to be torn down between demos — unlike projects in this series that used WAF or EC2:
@@ -103,6 +108,7 @@ No component here bills by the hour, so nothing needs to be torn down between de
 
 ---
 
+<a id="improvements"></a>
 ## 🚀 Possible Improvements
 
 - Replace the keyword-fallback matching with a Comprehend custom entity recognizer trained on real skill taxonomies
@@ -113,6 +119,7 @@ No component here bills by the hour, so nothing needs to be torn down between de
 
 ---
 
+<a id="docs"></a>
 ## 📚 Documentation
 
 - **[STEPS.md](STEPS.md)** — full step-by-step build log
@@ -120,6 +127,7 @@ No component here bills by the hour, so nothing needs to be torn down between de
 
 ---
 
+<a id="structure"></a>
 ## 📁 Repository Structure
 
 ```
