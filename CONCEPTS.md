@@ -13,11 +13,12 @@ This file explains **why** each decision was made — the questions most likely 
 ---
 
 ### Contents
-- 🗃️ [Data Design](#data)
-- 🤖 [AI Matching](#ai)
-- 📬 [Decoupling](#decoupling)
-- 🔐 [Security](#security)
-- 💰 [Cost](#cost)
+
+[![Data Design](https://img.shields.io/badge/Data_Design-30363D?style=flat-square)](#data)
+[![AI Matching](https://img.shields.io/badge/AI_Matching-30363D?style=flat-square)](#ai)
+[![Decoupling](https://img.shields.io/badge/Decoupling-30363D?style=flat-square)](#decoupling)
+[![Security](https://img.shields.io/badge/Security-30363D?style=flat-square)](#security)
+[![Cost](https://img.shields.io/badge/Cost-30363D?style=flat-square)](#cost)
 
 ---
 
